@@ -1,34 +1,43 @@
 # Art-Book-kotlin-fragment-navigation-roomdb-rxjava
-The user can save the works of art he/she likes with the name, artist, year and picture in the application or delete them later.                                                                      
+The user can save the works of art he/she likes with the name, artist, year and picture in the application or delete them later.                                    
+
+**Used technologies:** Fragment, Navigation, Roomdb, rxjava                                  
                                                                           
 
-Add Art Page
+**Add Art Page:** The user enters the information of the artwork he/she wants to save and saves it to the system.
 
-![IMG-20230205-WA0004](https://user-images.githubusercontent.com/95187142/216818945-7606b538-505a-4443-8c93-218b0c6483df.jpg )
-
-Request Permission to Access the Gallery
-
-![IMG-20230205-WA0003](https://user-images.githubusercontent.com/95187142/216819343-f8d47650-f3a1-448d-8ec8-473f0d32a7a5.jpg)
-
-Toast Message to needed permission
-
-![IMG-20230205-WA0006](https://user-images.githubusercontent.com/95187142/216819420-56d0e935-2326-400f-8efe-ee5197dea97a.jpg)
+![image](https://github.com/aliSiyar/Art-Book-kotlin-fragment-navigation-roomdb-rxjava/assets/95187142/95774d4d-8cf4-4540-869a-de8b4109594d)
 
 
-Request Permission Rationale
+**Request Permission to Access the Gallery:** The user is asked for permission to access the gallery.
 
-![IMG-20230205-WA0002](https://user-images.githubusercontent.com/95187142/216819468-a1785f70-bcd7-4c40-80db-6966cca399fa.jpg)
+![image](https://github.com/aliSiyar/Art-Book-kotlin-fragment-navigation-roomdb-rxjava/assets/95187142/98a22784-c4af-4aa3-b9a8-3b9a96bb65f2)
 
-Save Page
 
-![IMG-20230205-WA0008](https://user-images.githubusercontent.com/95187142/216819567-0246b50a-26d6-4d52-9454-7da477b64845.jpg)
+**Toast Message to needed permission:** If the user does not allow, a toast message is returned.
 
-Delete Page
+![image](https://github.com/aliSiyar/Art-Book-kotlin-fragment-navigation-roomdb-rxjava/assets/95187142/3a24892c-ebda-4e94-876a-2b5e5af8b4a5)
 
-![IMG-20230205-WA0008](https://user-images.githubusercontent.com/95187142/216819615-4838c0fe-7a9b-4187-a224-ee713693584a.jpg)
 
-Art List Page
 
-![IMG-20230205-WA0007](https://user-images.githubusercontent.com/95187142/216819644-07998121-8513-4122-8ebb-50fdc70f223b.jpg)
+**Request Permission Rationale:** If the user wants to add a picture not again after giving permission once, it is indicated again that the permission to access the gallery is required.
+
+![image](https://github.com/aliSiyar/Art-Book-kotlin-fragment-navigation-roomdb-rxjava/assets/95187142/b7aa4ecb-e421-4213-ae09-41e8ed2a1b3f)
+
+
+**Save Page:** After the user fills in the required fields, he/she saves the artwork to the system.
+
+![image](https://github.com/aliSiyar/Art-Book-kotlin-fragment-navigation-roomdb-rxjava/assets/95187142/581e30f6-9235-4f45-8b8e-9250ebcebb41)
+
+
+**Delete Page:** The user can delete a previously saved art.
+
+![image](https://github.com/aliSiyar/Art-Book-kotlin-fragment-navigation-roomdb-rxjava/assets/95187142/7ad081e7-96e2-4e4e-b4f6-d837992ca1b2)
+
+
+**Art List Page:** On the home screen, the user can view previously added artworks. The user can add new Art with the Add Art button.
+
+![image](https://github.com/aliSiyar/Art-Book-kotlin-fragment-navigation-roomdb-rxjava/assets/95187142/c8edcfb1-5364-47ff-9f99-b296181bf976)
+
 
 
