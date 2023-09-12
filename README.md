@@ -1,7 +1,7 @@
 # Art-Book-kotlin-fragment-navigation-roomdb-rxjava
 The user can save the works of art he/she likes with the name, artist, year and picture in the application or delete them later.                                    
 
-**Used technologies:** Fragment, Navigation, Roomdb, rxjava                                  
+**Used technologies:** Kotlin, Fragment, Navigation, Room, RxJava                                  
                                                                           
 
 **Add Art Page:** The user enters the information of the artwork he/she wants to save and saves it to the system.
